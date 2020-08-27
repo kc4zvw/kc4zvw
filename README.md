@@ -1,4 +1,4 @@
-### Good Day Sir 👋
+# Good Day Sir 👋
 
 Here are some ideas to get you started:
 
@@ -7,5 +7,8 @@ Here are some ideas to get you started:
 - 💬 Ask me about amateur radio
 - 📫 How to reach me: <billsbrough@gmail.com>
 
+## other
+- item
+
 ----
-revised: ***
+Revised: 27-Aug-2020
