@@ -8,7 +8,8 @@ Here are some ideas to get you started:
 - 📫 How to reach me: <billsbrough@gmail.com>
 
 ## other
-- item
+
+- list of projects
 
 ----
-Revised: 27-Aug-2020
+Revised: 04-Jan-2022
