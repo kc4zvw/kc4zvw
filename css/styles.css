@@ -4,7 +4,7 @@ div.container6 { display: flex; align-items: center; justify-content: center }
 div.container6 p { margin: 0 }
 caption {color: #804F24; font-size: 18pt; font-style: oblique; text-align: center }
 div.c1 {text-align: center; border: 0px; padding: 25px; }
-div.c2 {margin-left:auto; margin-right:auto; width: 100%; border: 0px; }
+div.noborder {margin-left:auto; margin-right:auto; width: 100%; border: 0px; }
 div.top { background-color: lightgrey; width: 800px; border: 20px solid #804F24; padding: 25px; margin: 75px; margin-left:auto; margin-right:auto; }
 div.footer {text-align: center}
 h1.c1 {color: yellow; font-size: 24pt; font-family: Arial, Helvetica; text-align: center}

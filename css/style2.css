@@ -9,7 +9,7 @@ div.c2 { margin-left: 2em }
 h1.main { color: #FFFF00; text-align: center }
 h2.c1 { color: green }
 h3.c1 { color: yellow }
-img.footer { border: "1"; height: "48"; width: "48"; }
+/*img.footer { border: "1px"; height: "48px"; width: "48px"; }*/
 p { text-indent: 2.0em }
 p.c1 { border: 0px solid ; width: 90% ; color: #000000 }
 span.fbanner { color: yellow; text-align: center; width: 70%; }
@@ -24,7 +24,7 @@ address img { float: right; width: 88px; height: 31px; }
 address     { clear: right; }
 
 p.title {
-  // font-size: 120%;
+  /* font-size: 120%; */
   font-weight: bold;
   color: blue;       /* Change this color util it's NOT ugly */
   text-align: center;

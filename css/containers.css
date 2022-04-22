@@ -1,0 +1,101 @@
+/* Example:  new CCS demo code to create a 3 column panels to be more reactive */
+
+/* https://stackoverflow.com/questions/20179154/how-can-i-align-3-divs-side-by-side */
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 1fr;
+	background-color: #2196F3;
+	padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+	display: grid;
+	column-gap: 5px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 1fr;
+	grid-column-gap: 10px;
+	border: 2px solid rgba(0, 0, 0, 0.8);
+	width: 99%;
+}  
+
+.container > div {
+	background-color: green;
+	justify-content: space-around;
+}
+
+#first, #third {
+	color: yellow;
+	padding: 15px 15px 15px 15px;
+	font-size: 20px;
+	text-align: left;
+}
+
+#second {
+	color: black;
+	background-color: lightgreen;
+	padding: 15px 15px 15px 15px;
+	font-size: 20px;
+	text-align: left;
+}
+
+/* ============================================================================= */
+
+div.container2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+div.container2 > div {
+	margin: 4px;
+	background-color: cyan;
+	padding: 0.5em;
+}
+
+div#first2, div#third2 {
+	padding: 0.5em;
+	color: black;
+	width: 30%;
+	padding: 15px 15px 15px 15px;
+}
+
+div#second2 {
+	padding: 0.5em;
+	color: lightgrey;
+	width: 40%;
+	padding: 15px 15px 15px 15px;
+}
+
+/* ============================================================================= */
+
+div.thisline {
+
+	background-color: #e0e0e0;
+	padding: 0.5em;
+	display: inline-block; /* enable side by side */
+	justify-content: center;
+
+	/* Make space in case they wrap */
+	margin-top: 0.5ex;
+	margin-bottom: 0.5ex;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	max-width: 400px;
+	vertical-align: text-top;
+}
+
+div#leftcol   { background-color: #804F24; }   /* removed: #ff9999 */
+div#centercol { background-color: darkgrey; color: yellow }
+div#rightcol  { background-color: #804F24; }   /* removed: #9999ff */
+
+/* End of File */
