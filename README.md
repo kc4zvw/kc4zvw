@@ -9,7 +9,8 @@ Here are some ideas to get you started:
 
 ## other
 
-- list of projects
+- list of <a href="projects.html">projects</a>
+- Electronics <a href="https://www.orlando220.org/">Notes</a>
 
 ----
-Revised: 01-October-2025
+Revised: 24-November-2025
