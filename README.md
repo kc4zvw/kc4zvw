@@ -9,7 +9,7 @@ Here are some ideas to get you started:
 
 ## other
 
-- list of <a href="file:projects.html">projects</a>
+- list of <a href="file:///projects.html">projects</a>
 - Electronics <a href="https://www.orlando220.org/">Notes</a>
 
 ----
